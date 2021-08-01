@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI","Helvetica Neue",Arial,sans-serif;
+}
+a:hover {
+   opacity: 0.7; 
+}
+/* ----- Page ----- */
+
+.insta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-end;
+    margin-top: 30px;
+}
+
+.celular {
+    margin: 0 20px;
+}
+
+@media (max-width: 43.75rem) {
+    .celular {
+        display: none;
+    }
+}
+/* ----- Login ----- */
+
+.login {
+    display: flex;
+    flex-flow: column;
+    border: 1px solid #00000027;
+    padding: 25px 35px;
+    margin: 10px 0;
+    border-radius: 2px;
+}
+
+.login .group {
+    margin: 0px 0px 20px 0px;
+}
+
+.signup .group input#senha, input#nome {
+    border-radius: 3px;
+    border-color: #8080801e;
+    background-color: #00000008;
+    width: 250px;
+    height: 30px;
+    padding: 15px 15px 15px 5px;
+    font: 11px Arial, Helvetica, sans-serif;
+    opacity: 0.8;
+}
+
+.signup .nome input {
+    margin-bottom: 5px;
+}
+
+.signup .logo img {
+    display: flex;
+    align-items: center;
+    width: 180px;
+    margin: 0px 25px 15px 35px
+}
+
+.signup #btn {
+    color: #fff;
+    border: none;
+    opacity: 0.5;
+    border-radius: 5px;
+    padding: 6px;
+    font-size: 12px;
+    font-weight: bold; 
+    background-color: #53b2ffb0;
+}
+.signup #btn:hover { 
+    opacity: 1;
+}
+
+.signup #btn a {
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 6px;
+    font-size: 12px;
+    font-weight: bold; 
+}
+
+.meu-hr {
+    display: flex;
+    align-items: center;
+  }
+
+.meu-hr hr {
+    opacity: 0.5;
+    flex:1;
+    border-color: #80808052;
+ }
+
+.meu-hr p {
+    color: #808080;
+    padding: 10px;
+}
+
+.signup .group img {
+    display: flex;
+    margin-left: 40px;
+}
+
+.signup a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 11px;
+    color: rgb(21, 44, 121);
+}
+
+.signup p {
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+}
+
+/* ----- Download ----- */
+
+.download {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.get-the-app p {
+    font-size: 13px;
+    padding: 8px;
+    margin-bottom: 5px;
+}
+
+.signup {
+    font: 55px;
+}
+
+
+/* ----- footer ----- */
+
+#end {
+    opacity: 0.5;
+    margin-top: 60px;
+    margin-bottom: 5px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 10px;
+}
+
+footer .contato {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+footer .contato a {
+    margin-left: 10px;
+}
